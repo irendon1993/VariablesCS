@@ -43,6 +43,7 @@ namespace VariablesCS
 
             var sum = firstOperand + secondOperand;
             var difference = secondOperand - firstOperand;
+            var product = secondOperand * firstOperand;
             var quotient = firstOperand / secondOperand;
             var remainder = firstOperand % secondOperand;
 
@@ -50,6 +51,7 @@ namespace VariablesCS
 
             Console.WriteLine($"The sum of {firstOperand} and {secondOperand} is equal to {sum}");
             Console.WriteLine($"The difference of {firstOperand} and {secondOperand} is equal to {difference}");
+            Console.WriteLine($"The product of {firstOperand} and {secondOperand} is equal to {product}");
             Console.WriteLine($"The quotient of {firstOperand} by {secondOperand} is equal to {quotient}");
             Console.WriteLine($"The remainder of {firstOperand} from {secondOperand} is equal to {remainder}");
 
